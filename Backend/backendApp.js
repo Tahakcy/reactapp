@@ -4,7 +4,7 @@ const uuid = require("uuid");
 const fs =  require("fs");
 const url = require("url");
 const path = require("path");
-const PORT = 5000;
+const PORT = 3000;
 const filePath = path.join(__dirname, 'todoList.txt');
 
 const server = http.createServer((req, res) => {
